@@ -10,7 +10,7 @@ public class LoginTest {
 	
 	@BeforeTest
 	public void openConnection(){
-		System.out.println("Connected to DataBase");
+		System.out.println("Connected to the DataBase");
 	}
 	
 	@AfterTest
