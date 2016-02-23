@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" >
+    
+    <test name="Learning Assertion" >
+        <classes>
+            <class name="com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion" />
+        </classes>
+    </test>
+    <test name="Testing Login" >
+        <classes>
+            <class name="com.org.LearningMaven.SampleTestProjectMaven.LoginTest" />
+        </classes>
+    </test>
+    
+    <test name="Testing the Selling Books" >
+        <classes>
+            <class name="com.org.LearningMaven.SampleTestProjectMaven.SellingBooks" />
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SellingBooks"/>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.LoginTest"/>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SendMailTest"/>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SendMailTest">
+        <methods>
+          <include name="testSendingMail"/>
+        </methods>
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.SendMailTest -->
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion">
+        <methods>
+          <include name="testGoogleSearch"/>
+        </methods>
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion -->
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.LoginTest">
+        <methods>
+          <include name="openConnection"/>
+          <include name="testRegister"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.LoginTest -->
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SellingBooks">
+        <methods>
+          <include name="shouldWeSkip"/>
+          <include name="testSellingBooks"/>
+        </methods>
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.SellingBooks -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

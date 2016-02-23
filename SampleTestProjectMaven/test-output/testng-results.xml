@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="649" started-at="2016-02-18T05:53:12Z" finished-at="2016-02-18T05:53:13Z">
+    <groups>
+    </groups>
+    <test name="Learning Assertion" duration-ms="39" started-at="2016-02-18T05:53:12Z" finished-at="2016-02-18T05:53:12Z">
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion">
+        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion@5ba23b66]" name="testGoogleSearch" duration-ms="19" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion -->
+    </test> <!-- Learning Assertion -->
+    <test name="Testing Login" duration-ms="11" started-at="2016-02-18T05:53:12Z" finished-at="2016-02-18T05:53:12Z">
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.LoginTest">
+        <test-method status="PASS" signature="openConnection()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="openConnection" is-config="true" duration-ms="1" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="testLogin" duration-ms="2" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testRegister()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="testRegister" duration-ms="1" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.LoginTest@880ec60]" name="closeConnection" is-config="true" duration-ms="0" started-at="2016-02-18T11:23:12Z" finished-at="2016-02-18T11:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.LoginTest -->
+    </test> <!-- Testing Login -->
+    <test name="Testing the Selling Books" duration-ms="19" started-at="2016-02-18T05:53:13Z" finished-at="2016-02-18T05:53:13Z">
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SellingBooks">
+        <test-method status="SKIP" signature="shouldWeSkip()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.SellingBooks@19dfb72a]" name="shouldWeSkip" is-config="true" duration-ms="0" started-at="2016-02-18T11:23:13Z" finished-at="2016-02-18T11:23:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping because user is not logged in]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping because user is not logged in
+	at com.org.LearningMaven.SampleTestProjectMaven.SellingBooks.shouldWeSkip(SellingBooks.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldWeSkip -->
+        <test-method status="SKIP" signature="testSellingBooks()[pri:0, instance:com.org.LearningMaven.SampleTestProjectMaven.SellingBooks@19dfb72a]" name="testSellingBooks" duration-ms="1" started-at="2016-02-18T11:23:13Z" finished-at="2016-02-18T11:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSellingBooks -->
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.SellingBooks -->
+    </test> <!-- Testing the Selling Books -->
+  </suite> <!-- My Test Suite -->
+</testng-results>

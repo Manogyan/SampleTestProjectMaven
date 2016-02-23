@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Test Suite]">
+  <test name="Learning Assertion">
+    <classes>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.UsingAssertion"/>
+    </classes>
+  </test> <!-- Learning Assertion -->
+  <test name="Testing Login">
+    <classes>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.LoginTest"/>
+    </classes>
+  </test> <!-- Testing Login -->
+  <test name="Testing the Selling Books">
+    <classes>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SellingBooks"/>
+    </classes>
+  </test> <!-- Testing the Selling Books -->
+  <test name="Testing the Selling Books(failed)">
+    <classes>
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.SellingBooks">
+        <methods>
+          <include name="shouldWeSkip"/>
+          <include name="testSellingBooks"/>
+        </methods>
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.SellingBooks -->
+      <class name="com.org.LearningMaven.SampleTestProjectMaven.LoginTest">
+        <methods>
+          <include name="openConnection"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- com.org.LearningMaven.SampleTestProjectMaven.LoginTest -->
+    </classes>
+  </test> <!-- Testing the Selling Books(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->
